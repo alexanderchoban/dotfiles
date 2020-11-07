@@ -18,11 +18,10 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #637777
+background = #77FFFFFF
 background-alt = #FF2C83
-;foreground = ${xrdb:color7:#222}
 foreground = #D6DEEB
-foreground-alt = #FFF
+foreground-alt = #FFFFFF
 primary = #FF2C83
 secondary = #4876D6
 alert = #FF2C83
@@ -61,7 +60,7 @@ modules-right = memory cpu eth temperature date powermenu
 
 tray-position = right
 tray-padding = 0
-tray-background = ${colors.background}
+tray-background = ${colors.background-alt}
 
 ;wm-restack = bspwm
 wm-restack = i3
@@ -369,28 +368,28 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = 
-label-open-foreground = ${colors.secondary}
-label-close =  cancel
-label-close-foreground = ${colors.secondary}
-label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
-
-menu-0-0 = reboot
-menu-0-0-exec = menu-open-1
-menu-0-1 = power off
-menu-0-1-exec = menu-open-2
-
-menu-1-0 = cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
-
-menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
-menu-2-1 = cancel
-menu-2-1-exec = menu-open-0
-
+# label-open = 
+# label-open-foreground = ${colors.secondary}
+# label-close =  cancel
+# label-close-foreground = ${colors.secondary}
+# label-separator = |
+# label-separator-foreground = ${colors.foreground-alt}
+# 
+# menu-0-0 = reboot
+# menu-0-0-exec = menu-open-1
+# menu-0-1 = power off
+# menu-0-1-exec = menu-open-2
+# 
+# menu-1-0 = cancel
+# menu-1-0-exec = menu-open-0
+# menu-1-1 = reboot
+# menu-1-1-exec = sudo reboot
+# 
+# menu-2-0 = power off
+# menu-2-0-exec = sudo poweroff
+# menu-2-1 = cancel
+# menu-2-1-exec = menu-open-0
+ 
 [settings]
 screenchange-reload = true
 ;compositing-background = xor
