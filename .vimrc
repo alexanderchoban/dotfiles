@@ -25,4 +25,4 @@ syntax enable
 colorscheme night-owl
 
 """"" Auto turn on nerd tree
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
