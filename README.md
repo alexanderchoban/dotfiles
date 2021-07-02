@@ -1,3 +1,3 @@
 # dotfiles
 
-My personal dotfiles for Manjaro Linux
+My personal dotfiles for Arch Linux
