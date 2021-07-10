@@ -1,3 +1,16 @@
 # dotfiles
 
-My personal dotfiles for Manjaro Linux
+My personal dotfiles for Arch Linux
+
+## Window Environment
+
+* bspwm
+* lemonbar
+* picom
+
+## Software
+
+* nitrogen
+* screenfetch
+* remmina 
+* gtop
