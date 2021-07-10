@@ -5,6 +5,6 @@ files=( ".zshrc" ".config/picom/picom.conf" ".config/lemonbar/start.sh" ".config
 
 for i in "${files[@]}"
 do
-	rm  ~/code/dotfiles/${i}
+    rm  ~/code/dotfiles/${i}
     cp ~/${i} ~/code/dotfiles/${i}
 done
