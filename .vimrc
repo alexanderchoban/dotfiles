@@ -17,8 +17,16 @@ Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'haishanh/night-owl.vim'
+Plug 'Townk/vim-autoclose'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
+
+"""""""""""""""""""""""""""""""""""""
+" Mappings configurationn
+"""""""""""""""""""""""""""""""""""""
+map <C-n> :NERDTreeToggle<CR>
 
 """"" enable 24bit true color
 if (has("termguicolors"))
@@ -29,5 +37,7 @@ endif
 syntax enable
 colorscheme night-owl
 
-""""" Auto turn on nerd tree
-autocmd vimenter * NERDTree
+""""" Airline Config
+let g:airline_powerline_fonts = 1
+let g:airline_theme='sol'
+

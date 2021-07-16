@@ -27,7 +27,7 @@ ZSH_THEME="agnoster"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
+DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -68,7 +68,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git archlinux aws git-auto-fetch)
 
 source $ZSH/oh-my-zsh.sh
 

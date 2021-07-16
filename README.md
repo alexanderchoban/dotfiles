@@ -11,10 +11,13 @@ My personal dotfiles for Arch Linux
 ## Software
 
 * vim
+* gtop
+* ranger
+* tty-clock
+* chromium
 * nitrogen
 * screenfetch
 * remmina 
-* gtop
 
 ## Fonts
 

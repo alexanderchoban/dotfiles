@@ -8,6 +8,7 @@ declare -a files=(
     ".vimrc"
     ".config/terminator/config"
     ".Xresources"
+    ".config/rofi/config.rasi"
 )
 
 
