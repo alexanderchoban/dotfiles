@@ -9,17 +9,22 @@ Clock() {
         echo -n "$DATETIME"
 }
 
+# Define Desktop Name
+Desktop() {
+    bspc query -D -d focused --names
+}
+
 # Print the clock
 
 while true; do
 	barout=""
-	baroutput="%{r} $(Clock) %{l} ATG "
+  baroutput="%{r} $(Clock) %{l} \uf61a ATG %{c} Desktop $(Desktop) "
 
         tmp=0
 	for m in $(echo "$Monitors"); do
             barout+="%{S${tmp}}$baroutput"
             let tmp=$tmp+1
         done
-	echo $barout
+	echo -e $barout
         sleep 1
 done

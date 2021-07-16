@@ -1,6 +1,14 @@
 #!/bin/bash
 
-files=( ".zshrc" ".config/picom/picom.conf" ".config/lemonbar/start.sh" ".config/bspwm/bspwmrc" )
+declare -a files=( 
+    ".zshrc" 
+    ".config/picom/picom.conf" 
+    ".config/lemonbar/start.sh" 
+    ".config/bspwm/bspwmrc"
+    ".vimrc"
+    ".config/terminator/config"
+    ".Xresources"
+)
 
 
 for i in "${files[@]}"

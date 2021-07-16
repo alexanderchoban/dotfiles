@@ -1,0 +1,25 @@
+[global_config]
+  borderless = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#011627"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#80a4c2"
+    cursor_color_fg = False
+    font = Lucida Console Semi-Condensed 14
+    foreground_color = "#d6deeb"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#2e3436:#ef5350:#80cbc4:#ffeb95:#82aaff:#c792ea:#addb67:#d3d7cf:#555753:#ef5350:#80cbc4:#ffeb95:#82aaff:#c792ea:#addb67:#eeeeec"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
