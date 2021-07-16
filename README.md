@@ -14,6 +14,7 @@ My personal dotfiles for Arch Linux
 * gtop
 * ranger
 * tty-clock
+* mpv
 * chromium
 * nitrogen
 * screenfetch
