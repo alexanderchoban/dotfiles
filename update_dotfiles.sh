@@ -6,9 +6,12 @@ declare -a files=(
     ".config/lemonbar/start.sh" 
     ".config/bspwm/bspwmrc"
     ".vimrc"
-    ".config/terminator/config"
+    ".config/kitty/kitty.conf"
+    ".config/kitty/theme.conf"
     ".Xresources"
     ".config/rofi/config.rasi"
+    ".config/ranger/rc.conf"
+    ".config/sxhkd/sxhkdrc"
 )
 
 
