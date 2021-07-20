@@ -39,5 +39,5 @@ colorscheme night-owl
 
 """"" Airline Config
 let g:airline_powerline_fonts = 1
-let g:airline_theme='sol'
+let g:airline_theme='light'
 
