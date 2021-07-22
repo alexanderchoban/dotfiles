@@ -11,7 +11,7 @@ My personal dotfiles for Arch Linux
 ## Software
 
 * vim
-* gtop
+* gotop
 * ranger
 * tty-clock
 * mpv

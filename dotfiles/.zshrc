@@ -100,6 +100,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias clock="tty-clock -scD"
 alias icat="kitty +kitten icat"
+alias ssh="kitty +kitten ssh"
+alias top="gotop"
 
 export EDITOR=vim
 
@@ -150,5 +152,5 @@ termcolors(){
 
 weather(){
   clear
-  curl -ks https://wttr.in/kbmi\?nQFA
+  curl -ks https://wttr.in/$1\?nQFA
 }
