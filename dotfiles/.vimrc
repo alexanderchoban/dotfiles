@@ -20,6 +20,7 @@ Plug 'haishanh/night-owl.vim'
 Plug 'Townk/vim-autoclose'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-scripts/DrawIt'
 
 call plug#end()
 
