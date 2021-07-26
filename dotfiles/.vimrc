@@ -41,3 +41,16 @@ colorscheme night-owl
 let g:airline_powerline_fonts = 1
 let g:airline_theme='light'
 
+set number
+set encoding=utf-8
+set wildmenu
+set showmatch
+
+"""" Tab Settings
+set tabstop=2
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
+set autoindent
+set smartindent

@@ -102,6 +102,7 @@ alias clock="tty-clock -scD"
 alias icat="kitty +kitten icat"
 alias ssh="kitty +kitten ssh"
 alias top="gotop"
+alias mpvgui="mpv --player-operation-mode=pseudo-gui"
 
 export EDITOR=vim
 
