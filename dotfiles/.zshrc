@@ -103,6 +103,8 @@ alias icat="kitty +kitten icat"
 alias ssh="kitty +kitten ssh"
 alias top="gotop"
 alias mpvgui="mpv --player-operation-mode=pseudo-gui"
+alias monitoroff="xset dpms force off"
+alias monitoron="xset s off -dpms"
 
 export EDITOR=vim
 

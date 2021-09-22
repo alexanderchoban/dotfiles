@@ -2,7 +2,7 @@
 * {
     font: "Lucida Regular 18";
     foreground: #d6deeb;
-    background-color: #011627;
+    background: #011627;
     active-background: #82AAFF;
     urgent-background: #EF5350;
     selected-background: @active-background;
