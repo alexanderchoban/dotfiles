@@ -16,6 +16,6 @@ declare -a files=(
 
 for i in "${files[@]}"
 do
-    rm  ~/code/dotfiles/dotfiles/${i}
-    cp ~/${i} ~/code/dotfiles/dotfiles/${i}
+    rm  ~/code/dotfiles/arch/dotfiles/${i}
+    cp ~/${i} ~/code/dotfiles/arch/dotfiles/${i}
 done
