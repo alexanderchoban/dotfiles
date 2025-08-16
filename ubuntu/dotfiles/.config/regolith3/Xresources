@@ -1,0 +1,7 @@
+regolith.wallpaper.file: /home/alexander/Pictures/1072052.jpg
+wm.bar.position: top
+Xft.dpi: 192
+gnome.terminal.font: Operator Mono for Powerline 16
+St.font: Operator Mono
+!regolith.look.path: /usr/share/regolith-look/lascaille
+regolith.look.path: /usr/share/regolith-look/dracula
